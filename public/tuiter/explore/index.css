@@ -132,16 +132,18 @@
     font-size: 14px;
     color: #657786;
     margin-bottom: 2px;
+   
   }
   
   .wd-tuit-description {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: #14171A;
+    text-align: left;
   }
 
   .wd-tuit-hashtag {
-    font-size: 12px;
+    font-size: 14px;
     color: #657786;
     margin-top: 4px;
   }
@@ -154,4 +156,51 @@
     top: 0;
     padding-right: 20px;
 }
+
+.wd-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.follow-image {
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.relativity-image {
+  width: 60px; 
+  height: 60px; 
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+.wd-follow {
+  padding-right:40px;
+}
+
+.square-image-container {
+  position: relative;
+  width: 80%;
+  padding-bottom: 80%; 
+}
+
+.image-content {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
   
